@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: #e90;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+}
+
+button {
+    font-size: 120px;
+    font-family: Garamond, Baskerville;
+    margin: 0 auto 50px;
+    padding: 20px 40px;
+    background-color: #FFC125;
+    border: 12px solid black;
+    border-radius: 12px;
+}
+
+.taxiName {
+    background-repeat: no-repeat;
+    padding: 6px;
+}
+
+.taxiName span {
+    margin: 0 0 0 54px;
+    font-family: Garamond;
+    font-size: 48px;
+    text-decoration: none;
+    color: #000;
+ }
+
+ .viewlink {
+    margin: 12px 0 0 64px;
+    font-family: Garamond;
+    text-decoration: none;
+    color: #000;
+ }
